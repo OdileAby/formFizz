@@ -1,0 +1,44 @@
+.App {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.welcome-header h1 {
+  font-style: italic; /* Make it italic */
+  color: #4CAF50; /* Example: Green color */
+  text-align: center; /* Center-align the text */
+  font-size: 2.5rem; /* Larger font size */
+  margin-bottom: 20px; /* Space below the header */
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
